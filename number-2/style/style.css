@@ -1,0 +1,97 @@
+/* App */
+.app {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+
+    background-color: grey;
+
+    padding: 20px 0;
+}
+
+/* Main */
+.main {
+    display: flex;
+}
+
+/* Main part */
+.main__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    flex-basis: 70%;
+
+    padding: 10px;
+
+    background-color: khaki;
+}
+
+.main__section__main-part {
+    display: flex;
+    justify-content: center;
+
+    flex-basis: 100%;
+
+    justify-content: center;
+
+}
+
+.main__section__1part,
+.main__section__2part,
+.main__section__3part {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15px;
+    padding: 10px;
+
+    background-color: rgb(224, 211, 87);
+}
+
+.main__section__1part,
+.main__section__2part {
+    flex-basis: 45%;
+}
+
+
+.main__section__3part {
+    flex-basis: 100%;
+}
+
+/* Sidebar */
+.main__aside {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    flex-basis: 30%;
+
+    background-color: lightgreen;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+    background-color: grey;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+    margin: 0 5px;
+    padding: 10px 0;
+
+    background-color: #fff;
+
+}

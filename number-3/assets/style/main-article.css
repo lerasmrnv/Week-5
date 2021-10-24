@@ -1,0 +1,120 @@
+/* Main article */
+.main__section__article {
+    display: flex;
+}
+
+/* Part 1 */
+.main__section__article__part1 {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 55%;
+}
+
+.main__section__article__part1__h2 {
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 500px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.main__section__article__part1__img {
+    margin-left: 250px;
+    height: 377px;
+    width: 280px;
+}
+
+/* Part 2.1 */
+.main__section__article__part2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+
+.main__section__article__part2__1 {
+    border-bottom: 1px solid #F7A500;
+    width: 466px;
+}
+
+.main__section__article__part2__1__title {
+    margin-top: 57px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA;
+}
+
+.main__section__article__part2__1__text {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.main__section__article__part2__1__title,
+.main__section__article__part2__1__text {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Part 2.2 */
+
+.main__section__article__part2__2 {
+    border-bottom: 1px solid #F7A500;
+    width: 466px;
+}
+
+.main__section__article__part2__2__title {
+    margin-top: 57px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA;
+}
+
+.main__section__article__part2__2__text {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.main__section__article__part2__2__ps {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.main__section__article__part2__2__title,
+.main__section__article__part2__2__text,
+.main__section__article__part2__2__ps {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Part 2.3 */
+
+.main__section__article__part2__3 {
+    border-bottom: 1px solid #F7A500;
+    width: 466px;
+}
+
+.main__section__article__part2__3__title {
+    margin-top: 57px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA;
+}
+
+.main__section__article__part2__3__text {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+.main__section__article__part2__3__title,
+.main__section__article__part2__3__text {
+    font-family: 'Roboto', sans-serif;
+}

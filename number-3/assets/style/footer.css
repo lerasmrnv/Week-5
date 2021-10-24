@@ -1,0 +1,142 @@
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 56px 190px 70px 190px;
+
+    background-color: #48156D;
+}
+
+/* Quick Links */
+.footer__section__quick-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section__quick-links__div {
+    padding-bottom: 15px;
+
+    color: #C282F0;
+    font-size: 12px;
+}
+
+.footer__section__quick-links__veterinars,
+.footer__section__quick-links__how-it-works,
+.footer__section__quick-links__about-us,
+.footer__section__quick-links__blog,
+.footer__section__quick-links__shop {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer__section__quick-links__div,
+.footer__section__quick-links__veterinars,
+.footer__section__quick-links__how-it-works,
+.footer__section__quick-links__about-us,
+.footer__section__quick-links__blog,
+.footer__section__quick-links__shop {
+    margin-top: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Call or Text */
+.footer__section__call-or-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section__call-or-text__div,
+.footer__section__call-or-text__email,
+.footer__section__call-or-text__fax {
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+    color: #C282F0;
+    font-size: 12px;
+}
+
+.footer__section__call-or-text__div,
+.footer__section__call-or-text__phone1,
+.footer__section__call-or-text__email,
+.footer__section__call-or-text__mailto,
+.footer__section__call-or-text__fax,
+.footer__section__call-or-text__phone2 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__section__call-or-text__phone1,
+.footer__section__call-or-text__mailto,
+.footer__section__call-or-text__phone2 {
+    margin-bottom: 15px;
+
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
+/* New York City */
+.footer__section__new-york-city {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.footer__section__new-york-city__NY,
+.footer__section__new-york-city__adress1,
+.footer__section__new-york-city__adress2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__section__new-york-city__NY {
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #C282F0;
+}
+
+.footer__section__new-york-city__adress1,
+.footer__section__new-york-city__adress2 {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    color: white;
+}
+
+/* Los Angeles */
+.footer__section__los-angeles {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.footer__section__los-angeles__LY {
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #C282F0;
+}
+
+.footer__section__los-angeles__adress1,
+.footer__section__los-angeles__adress2 {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    color: white;
+}
+
+.footer__section__los-angeles__LY,
+.footer__section__los-angeles__adress1,
+.footer__section__los-angeles__adress2 {
+    font-family: 'Roboto', sans-serif;
+}
